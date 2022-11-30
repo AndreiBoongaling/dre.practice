@@ -1,0 +1,21 @@
+while(True):
+    answer = float
+    userChoice = input("What do you want to do?\n1.Add\n2.Subtract\n3.Multiply\n4.Division\n-> ")
+    if userChoice == "1":
+        num1 = float(input("Input first number: "))
+        num2 = float(input("Input second number: "))
+        print(float(num1)+float(num2))
+    elif userChoice == "2":
+        num1 = float(input("Input first number: "))
+        num2 = float(input("Input second number: "))
+        print(float(num1)-float(num2))
+    elif userChoice == "3":
+        num1 = float(input("Input first number: "))
+        num2 = float(input("Input second number: "))
+        print(float(num1)*float(num2))
+    elif userChoice == "4":
+        num1 = float(input("Input first number: "))
+        num2 = float(input("Input second number: "))
+        print(float(num1)/float(num2))
+    else:
+        print("Invalid input!")
